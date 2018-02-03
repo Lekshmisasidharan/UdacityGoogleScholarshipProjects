@@ -1,0 +1,53 @@
+/* add your CSS here */
+
+*{
+	font-family: Helvetica, sans-serif;
+	box-sizing: border-box;
+	color: white;
+}
+
+.card{
+	width: 332px; 
+    border:2px solid #40f520;
+    background: #101010;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow:5px 10px 18px #888;
+}
+
+.animal-name{
+	border:1px solid #40f520;
+	padding: 10px;
+	box-shadow:0 8px 6px -6px #40f520;
+	border-radius: 18px;
+}
+
+.card-image{
+	width: 300px;
+	height: auto;
+	border:1px solid #40f520;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+
+.card-info{
+	padding: 5px 15px 5px 15px;
+	border:1px solid #40f520;
+	border-radius: 10px;
+	font-size: 1rem;
+}
+
+#animal-fact{
+	font-style: italic;
+	text-align: justify;
+}
+
+.list{
+	list-style-type: none;
+	font-weight: bold;
+	padding: 0px;
+}
+
+.animal-description{
+	text-align: justify;
+}
